@@ -13,10 +13,10 @@
 /users/:id
 /users/:id/articles
 
-# POST + req.body.title = string
+# POST 
 /users
 
-# PUT + req.body.completed = boolean
+# PUT 
 /users/:id
 
 # DELETE 
@@ -35,11 +35,10 @@
 # GET 
 /articles + query
 
-
-# POST + req.body.title = string
+# POST 
 /articles
 
-# PUT + req.body.completed = boolean
+# PUT 
 /articles/:id
 
 # DELETE 
