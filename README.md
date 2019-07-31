@@ -1,5 +1,5 @@
 # BackEnd CRUD User + Articles
-###### __USERS__ ######
+## __USERS__ ##
 {
   firstName: type string, min length 4, max length 50, required field,
   lastName: type string, min length 3, max length 60, required field
@@ -8,21 +8,21 @@
   numberOfArticles: type number, default value 0, not required,
   nickname: type string, not required
 }
-# GET 
+### GET 
 /users
 /users/:id
 /users/:id/articles
 
-# POST 
+### POST 
 /users
 
-# PUT 
+### PUT 
 /users/:id
 
-# DELETE 
+### DELETE 
 /users/:id
 
-###### __ARTICLES__ ######
+## __ARTICLES__ ##
 {
   title: type string, min length 5, max length 400, required field, add text index
   subtitle: type string, min length 5, not required field,
@@ -32,14 +32,14 @@
   createdAt: type datetime, required field
   updatedAt: type datetime, required field
 }
-# GET 
+### GET 
 /articles + query
 
-# POST 
+### POST 
 /articles
 
-# PUT 
+### PUT 
 /articles/:id
 
-# DELETE 
+### DELETE 
 /articles/:id
